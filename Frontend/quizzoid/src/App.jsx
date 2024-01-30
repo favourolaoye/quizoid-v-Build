@@ -11,7 +11,6 @@ import RootLayout from '../layout/Rootlayout';
 import Onboarding from '../pages/onboarding';
 
 import { useSelector} from "react-redux";
-import { Children } from 'react';
 
 export default function App() {
   const {userInfo} = useSelector((state)=> state.auth);
