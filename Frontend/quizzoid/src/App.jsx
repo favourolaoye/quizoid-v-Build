@@ -6,6 +6,7 @@ import{
   RouterProvider
   } from 'react-router-dom';
 import Login from '../components/Login';
+import bodyParser from 'body-parser';
 import Register from '../components/Register';
 import RootLayout from '../layout/Rootlayout';
 import Onboarding from '../pages/onboarding';
